@@ -51,7 +51,8 @@ const App: React.FC = () => {
         </p>
         <h2>For Experimental and Evaluation Purposes</h2>
         <p>
-          Please note that NVC Coach is currently offered for experimental and evaluation purposes only. We encourage you to use it as a supportive tool for learning, reflection, and skill-building, but it is not a replacement for professional therapy or certified NVC training. This software should not be relied on or used when someone really needs an NVC coach.
+          Please note that NVC Coach is currently offered for experimental and evaluation purposes only. The AI software from ElevenLabs that is used
+          under the covers is currently pretty buggy, and I'm hopeful that will improve soon. We encourage you to use this app as a supportive tool for learning, reflection, and skill-building, but it is not a replacement for professional therapy or certified NVC training. This software should not be relied on or used when someone really needs an NVC coach.
         </p>
         <p>
           You can find the sourcecode to this application <a href="https://github.com/Alexei-Novak/nvc-coach">on github here</a>, along with instructions on how to customize
