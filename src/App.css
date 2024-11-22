@@ -2,21 +2,29 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  max-width: 960px;
+  width: 100%;
   margin: auto;
+  height: 100%;
 }
 
 .App-header {
   position: sticky;
   top: 0;
-  background-color: #282c34;
-  padding: 20px;
+  background-color: #f0f0f0;
+  padding: 20px 0;
   text-align: center;
   z-index: 1000;
 }
 
+.container {
+  width: 80%;
+  max-width: 960px; 
+  margin: 0 auto;
+}
+
 .App-logo {
-  height: 256px;
+  max-width: 100%;
+  height: auto;
   pointer-events: none;
 }
 
@@ -24,6 +32,7 @@
   flex: 1;
   overflow-y: auto;
   padding: 20px;
+  line-height: 1.6;
 }
 /* App.css or index.css */
 
@@ -35,4 +44,42 @@
 .audio-container span {
   margin-left: 25px;
   font-size: larger;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+      font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .container {
+      max-width: 100%; /* Make container take full width */
+      padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+
+  header img {
+      width: 100%; /* Make logo take full container width */
+      height: auto;
+  }
+
+  .content {
+      font-size: 0.9rem; /* Slightly reduce font size */
+      word-wrap: break-word; /* Ensure words break within container */
+  }
 }
