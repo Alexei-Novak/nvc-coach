@@ -15,7 +15,8 @@ To create your own ElevenLabs agent, do the following:
 1. Go the the Conversational AI section and create an AI Agent.
 1. Use all the default values except for _First message_ and _System prompt_. See values to copy/paste below.
 1. Search to find the right voice, or use your own.
-1. Once it's all working, modify the message and prompt to suit your own purposes.
+1. Once it's all working, modify the message and prompt to suit your own purposes and test it until you're happy with how it works.
+1. Finally, find the agentId from Eleven Labs and copy/paste it into the placeholder in App.tsx.
 
 ### First message
 

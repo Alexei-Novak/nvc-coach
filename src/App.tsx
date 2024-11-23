@@ -67,7 +67,7 @@ const App: React.FC = () => {
           <p>&copy; 2023 NVC Coach</p>
         </div>
       </footer>
-      <elevenlabs-convai agent-id="4eiainruHyTRvO0uRhMT">
+      <elevenlabs-convai agent-id="replace-with-your-eleven-labs-agentId">
       </elevenlabs-convai>
     </div>
   );
